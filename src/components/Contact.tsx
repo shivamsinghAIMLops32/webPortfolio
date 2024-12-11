@@ -15,11 +15,11 @@ export default function Contact() {
     setIsSubmitting(true);
     try {
       await emailjs.sendForm(
-        'service_uxks0ew',
-        'template_aou9x6i',
-        formRef.current,
-        'V_wzBKamV_xjuqTqe'
-      );
+        'service_uxks0ew',  // Service ID
+        'template_gx0k1lu', // Template ID
+        formRef.current,     // Form reference
+        'V_wzBKamV_xjuqTqe'  // Public Key
+      );      
       setSubmitStatus('success');
       formRef.current.reset();
     } catch (error) {
