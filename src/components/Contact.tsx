@@ -15,10 +15,10 @@ export default function Contact() {
     setIsSubmitting(true);
     try {
       await emailjs.sendForm(
-        'YOUR_SERVICE_ID',
-        'YOUR_TEMPLATE_ID',
+        'service_uxks0ew',
+        'template_aou9x6i',
         formRef.current,
-        'YOUR_PUBLIC_KEY'
+        'V_wzBKamV_xjuqTqe'
       );
       setSubmitStatus('success');
       formRef.current.reset();
