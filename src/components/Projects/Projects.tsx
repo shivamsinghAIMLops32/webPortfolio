@@ -15,10 +15,11 @@ const projects = [
     github: 'https://github.com/shivamsinghAIMLops32/task-manager',
   },
   {
-    title: 'Tic Tac Toe',
-    description: 'An interactive Tic Tac Toe game with multiplayer support and game history.',
-    tech: ['React', 'TypeScript', 'Tailwind CSS'],
-    github: 'https://github.com/shivamsinghAIMLops32/tic-tac-toe',
+    title: 'GIF mania',
+    description: 'An interactive gif webapp built with React and Tailwind CSS.',
+    tech: ['React', 'Tailwind CSS'],
+    github: 'https://github.com/shivamsinghAIMLops32/gifMania',
+    website: 'https://gifymania.netlify.app/',
   },
   {
     title: 'Twitter Clone',
